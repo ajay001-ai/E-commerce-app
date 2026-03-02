@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ecommerce:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-03-02T10:06:13.910979526Z"
+    description: A Helm chart for Kubernetes
+    digest: 458ecf0314d6898d07c3ba9332fc7677c147c38d72eed78f49b668de703360a5
+    name: ecommerce
+    type: application
+    urls:
+    - https://github.com/ajay001-ai/E-commerce-app/releases/download/ecommerce-0.1.2/ecommerce-0.1.2.tgz
+    version: 0.1.2
+generated: "2026-03-02T10:06:13.910985717Z"
