@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 WORKDIR /app
 RUN apt update -y
-RUN apt install httpd -y
+RUN apt install apache2 -y
 COPY . /var/www/html
 EXPOSE 80
-ENTRYPOINT [ "/usr/sbin/httpd","-D","FOREGROUND" ]
+ENTRYPOINT [ "apachectl","-D","FOREGROUND" ]
