@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://ajau001-ai/github.io/E-commerce-app.git
+    repoURL: https://ajay001-ai/github.io/E-commerce-app
     chart: ecommerce
     targetRevision: "*"  
     helm:
