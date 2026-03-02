@@ -1,0 +1,19 @@
+namespace: ajay-ns
+
+#deployment
+replicas: 4
+deployment: 
+  labels:
+    app: ecommerce
+  name: ecommerce-container
+image:
+  repository: ajaykumar5292/ecommerce-app
+  tag: v1.0.0
+port: 80
+
+#servicce
+service:
+  app: ecommerce
+  port: 80
+  type: LoadBalancer
+
